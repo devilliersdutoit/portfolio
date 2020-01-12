@@ -49,7 +49,7 @@ def submit_form():
         # write_to_file(data)
             write_to_csv(data)
         # write_to_csv_dict(data)
-        return redirect('/thank_you.html')
+            return redirect('/thank_you.html')
         except:
             'Did not save to database'
     else:
